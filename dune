@@ -1,0 +1,9 @@
+(executable
+ (name extract_sprites)
+ (public_name extract_sprites)
+ (package extract_sprites)
+ (modules extract_sprites)
+ (libraries cmdliner imagelib imagelib.unix)
+ (modes exe)
+ (flags (:standard -w -27))
+ (enabled_if (>= %{ocaml_version} 5.0)))
