@@ -13,15 +13,15 @@
 
 (license MIT)
 
-(documentation https://github.com/ryanootie/extract_sprites#readme)
+(documentation https://github.com/3ee-Games/ocaml-extract-sprites/#readme)
 
 (package
  (name extract_sprites)
  (synopsis "A CLI tool to extract individual sprites from a spritesheet")
  (description
   "An OCaml command-line utility that loads an image, detects connected
-   pixel regions, and exports them as cropped sprite PNGs. Built with
-   ImageLib and Cmdliner for fast & dependency-light workflow.")
+   pixel regions and exports them as cropped sprite PNGs. Built with
+   ImageLib and Cmdliner for fast workflow.")
  (depends
   (ocaml (>= 5.0))
   dune
