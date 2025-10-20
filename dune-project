@@ -5,7 +5,7 @@
 (generate_opam_files true)
 
 (source
- (github ryanootie/extract_sprites))
+ (github 3ee-Games/ocaml-extract-sprites))
 
 (authors "Ryan Sadwick <rsadwick@gmail.com>")
 
